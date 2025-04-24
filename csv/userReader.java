@@ -11,7 +11,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class userReader {
+public class userReader implements UserLoader {
 
     public void readUsers(String filePath, String userType, List<User> users) {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
