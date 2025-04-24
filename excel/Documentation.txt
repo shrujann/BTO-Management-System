@@ -1,0 +1,48 @@
+dataManager: the data manager used to store and retrieve enquiry data
+applicant: the applicant whose enquiries are to be retrieved
+
+
+
+
+
+- dataManager.hasAppliedForProject  // ApplicationController        (Missing)
+- dataManager.deleteApplication     // ApplicationController        (Checked)
+- dataManager.addApplication        // ApplicationController        (Checked)
+- dataManager.updateUser            // AuthenticationController     (Checked)
+- dataManager.getAllEnquiries()     // EnquiryController            (Missing)
+
+
+
+
+
+The DataManager is responsible for:
+- Storing and retrieving user data.
+- Storing and retrieving BTO project data.
+- Storing and retrieving application data.
+- Managing enquiries.
+
+AuthenticationController:
+- User getUserByNric(String nric): Retrieves a User object from the Excel file based on the NRIC.
+- boolean updateUser(User user): Updates the user's information in the Excel file.
+- List<User> getAllUsers(): Retrieves a list of all users from the Excel file.
+
+ProjectController:
+- BTOProject getProjectByName(String projectName): Retrieves a BTOProject object from the Excel file based on the project name.
+- List<BTOProject> getAllProjects(): Retrieves a list of all BTO projects from the Excel file.
+- boolean addProject(BTOProject project): Adds a new BTO project to the Excel file.
+- boolean updateProject(BTOProject project): Updates an existing BTO project in the Excel file.
+- boolean deleteProject(String projectName): Deletes a BTO project from the Excel file.
+
+ApplicationController:
+- boolean hasAppliedForProject(Applicant applicant): Checks if an applicant has already applied for a project.
+- boolean addApplication(Application application): Adds a new application to the Excel file.
+- boolean deleteApplication(Application application): Deletes an application from the Excel file.
+- List<Application> getApplicationsByApplicant(Applicant applicant): Retrieves a list of applications for a given applicant.
+- List<Application> getAllApplications(): Retrieves all applications.
+- boolean updateApplication(Application application): Updates the application in the excel file
+
+EnquiryController: 
+√ List<Enquiry> getEnquiriesByProject(String projectName): Retrieves a list of enquiries for a given project.
+- boolean addEnquiry(Enquiry enquiry): Adds a new enquiry to the Excel file.
+√ boolean updateEnquiry(Enquiry enquiry): Updates an existing enquiry in the Excel file.                          
+✕ boolean deleteEnquiry(Enquiry enquiry): Deletes an enquiry from the Excel file.

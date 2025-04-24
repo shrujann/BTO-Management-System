@@ -1,0 +1,4 @@
+applicantId,projectName,status,isWithdrawn,flatType
+T2345678D,Red,WITHDRAWN,true,null
+T7654321B,Acacia Breeze,BOOKED,false,2-Room
+S9876543C,Red,BOOKED,false,3-Room
