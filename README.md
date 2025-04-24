@@ -38,15 +38,19 @@ To run the project, you can should run the `MainMenu.java` class through your ID
 
 ```
 SC2002_Project/
-├── constants/          # Constants used in the project
-├── control/            # Control logic for managing the application
-├── csv/                # Classes for handling CSV file reading and writing
-├── data/               # Data handling related files
-├── entity/             # Entity classes for user, project, etc.
-├── excel/              # Excel file handling, if applicable
-├── logic/              # Core business logic of the system
-├── util/               # Utility classes (e.g., password hashing)
-├── .DS_Store           # macOS file (can be ignored)
-├── README.md           # This readme file
-└── MainMenu.java       # Main entry point to run the application
+├── boundary/                             # User interface and input/output handling
+│   ├── input/                            # Classes related to user input
+│   └── view/                             # Classes for displaying menus
+│       └── MainMenu.java                 # Main entry point to run the application
+│       └── [other classes...]            # Other menu-related classes
+├── constants/                            # Constants used across the project
+├── control/                              # Control logic for managing users and projects
+├── csv/                                  # CSV file reading and writing
+├── data/                                 # Data handling for user, project, and application data
+├── entity/                               # Entity classes for representing data models
+├── excel/                                # Excel file handling
+├── logic/                                # Program Logic
+├── util/                                 # Utility classes (eg: for password hashing)
+└── README.md                             # This README file
+
 ```
