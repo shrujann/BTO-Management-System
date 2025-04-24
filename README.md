@@ -30,19 +30,9 @@ Before you start, make sure you have the following installed:
     cd SC2002_Project
     ```
 
-2. Build the project using Maven:
-
-    ```bash
-    mvn clean install
-    ```
-
 ### Running the Project
 
-To run the project, you can either run the `MainMenu.java` class through your IDE or from the command line:
-
-```bash
-mvn exec:java -Dexec.mainClass="MainMenu"
-```
+To run the project, you can should run the `MainMenu.java` class through your IDE or from the command line:
 
 ### Project Structure
 
