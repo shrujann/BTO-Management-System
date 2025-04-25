@@ -95,3 +95,34 @@ SC2002_Project/
   - `UserDataManager`  
   - `ProjectDataManager`  
   - `ApplicationDataManager`
+
+## 📚 5. Documentation
+
+### 📊 UML Diagrams
+
+This project includes both structural and behavioural UML diagrams to illustrate the system's architecture and workflows.
+
+- **[Class Diagram](https://github.com/shrujann/SC2002_Project/tree/main/UML%20Diagrams/Class%20Diagram)**  
+  Visualises the relationships within the clases — including key classes like `User`, `Applicant`, `BTOProject`, and their relationships.
+
+- **[Sequence Diagrams](https://github.com/shrujann/SC2002_Project/tree/main/UML%20Diagrams/Sequence%20Diagrams)**  
+  Demonstrates the interaction flow for key use cases such as:
+  - HDB Officer applying as a BTO applicant
+  - HDB Officer registering to manage a project
+  - HDB Manager approving/rejecting a HDB officer
+
+
+> 📂 All diagrams are available in the [`UML Diagrams/`](https://github.com/shrujann/SC2002_Project/tree/main/UML%20Diagrams) directory.
+
+---
+
+### 📄 Javadocs
+
+The application includes a comprehensive set of **Javadocs** to help developers understand the structure and functionality of the codebase.
+
+To view them:
+
+1. Clone the repository.
+2. Open `javadoc/index.html` in your web browser.
+
+> 🔍 The Javadocs provide detailed documentation for every class, method, and package in the project.
