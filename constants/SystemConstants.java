@@ -13,10 +13,10 @@ public class SystemConstants {
 	// Maximum number of HDB Officers allowed for a project
 	public static final int MAX_HDB_OFFICER_SLOTS = 10;
 
-	public static final String applicantPath = "SC2002 Final Project/SC2002 Shrujan Final/csv/ApplicantList.csv";
-	public static final String officerPath = "SC2002 Final Project/SC2002 Shrujan Final/csv/OfficerList.csv";
-	public static final String managerPath = "SC2002 Final Project/SC2002 Shrujan Final/csv/ManagerList.csv";
-	public static final String projectPath = "SC2002 Final Project/SC2002 Shrujan Final/csv/ProjectList.csv";
-	public static final String ENQUIRY_FILE_PATH = "SC2002 Final Project/SC2002 Shrujan Final/csv/EnquiryList.csv";
-	public static final String APPLICATION_FILE_PATH = "SC2002 Final Project/SC2002 Shrujan Final/csv/ApplicationList.csv";
+	public static final String applicantPath = "csv/ApplicantList.csv";
+	public static final String officerPath = "csv/OfficerList.csv";
+	public static final String managerPath = "csv/ManagerList.csv";
+	public static final String projectPath = "csv/ProjectList.csv";
+	public static final String ENQUIRY_FILE_PATH = "csv/EnquiryList.csv";
+	public static final String APPLICATION_FILE_PATH = "csv/ApplicationList.csv";
 }
