@@ -100,7 +100,7 @@ SC2002_Project/
 
 ### 📊 UML Diagrams
 
-This project includes both structural and behavioural UML diagrams to illustrate the system's architecture and workflows.
+This project includes both class and sequence UML diagrams to illustrate the system's architecture and workflows.
 
 - **[Class Diagram](https://github.com/shrujann/SC2002_Project/tree/main/UML%20Diagrams/Class%20Diagram)**  
   Visualises the relationships within the clases — including key classes like `User`, `Applicant`, `BTOProject`, and their relationships.
