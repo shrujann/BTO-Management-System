@@ -26,8 +26,8 @@ Before you start, make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/shrujann/SC2002_Project.git
-    cd SC2002_Project
+    git clone https://github.com/shrujann/BTO-Management-System.git
+    cd BTO-Management-System
     ```
 
 ### Running the Project
