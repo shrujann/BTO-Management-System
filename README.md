@@ -37,7 +37,7 @@ To run the project, you can run the `MainMenu.java` class through your IDE or fr
 ### Project Structure
 
 ```
-SC2002_Project/
+BTO-Management-System/
 ├── boundary/                             # User interface and input/output handling
 │   ├── input/                            # Classes related to user input
 │   └── view/                             # Classes for displaying menus
