@@ -4,7 +4,7 @@
 
 ### Project Overview
 
-This project is a **Build-To-Order (BTO) Management System** built in Java. It manages the application and processing of BTO (Build-To-Order) projects, with the ability to handle users (Applicants, Officers, Managers), project data, applications, and user enquiries through various CSV files.
+This project is a **Build-To-Order (BTO) Management System** built in Java. It manages the application and processing of BTO (Build-To-Order) projects, with the ability to handle users (Applicants, Officers, Managers), project data, applications, and user enquiries through various CSV files. Team Members include Nicholas Yoong, Shrujan, Wei Hong, Sabareesh and Ming Tzern.
 
 ### Purpose
 
